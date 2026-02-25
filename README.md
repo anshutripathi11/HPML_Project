@@ -13,13 +13,14 @@ Effectively training deep neural networks across multiple GPUs is increasingly c
 The experiments will be conducted on the UTSA ARC cluster using GPUs. A standard image classification task will be used to ensure controlled and reproducible evaluation.
 
 The comparison will focus on:
-  •	Training time per epoch
-  •	Scalability as the number of GPUs increases
-  •	Speedup and efficiency
-  •	Communication overhead
-  •	GPU memory utilization
-  •	Final model accuracy
-  •	Convergence behavior
+
+- Training time per epoch
+- Scalability as the number of GPUs increases
+- Speedup and efficiency
+- Communication overhead
+- GPU memory utilization
+- Final model accuracy
+- Convergence behavior
   
 The underlying communication mechanisms will be analyzed to understand synchronization costs and communication patterns. The project will also evaluate the impact of mixed precision training on throughput and memory efficiency.
 
